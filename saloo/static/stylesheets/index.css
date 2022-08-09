@@ -1,0 +1,72 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: #000;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: #000;
+}
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+
+}
+.nav-link:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -40px;
+    outline: none;
+    border: 2px solid rgb(6, 14, 124);
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    background: rgb(6, 14, 124);
+    color: #fff;
+    font-weight: 700;
+
+}
+.main{
+
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    background-image: linear-gradient(-90deg, rgba(0,0,0, .85), rgba(0,0,0, .85)), url("../static/images/card1.jpg");
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(250, 250, 250);
+}
+.btn1{
+    height: 45px;
+    width: 27%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgb(6, 14, 124);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+.wave{
+    width: 100%;
+}
